@@ -1,0 +1,9 @@
+flyway.driver=com.mysql.jdbc.Driver
+flyway.url=jdbc:mysql://localhost:3306/{Your endpoint}?autoreconnect=true
+flyway.user={Your DB user}
+flyway.password={Your DB user's password}
+flyway.schemas={Your endpoint}
+flyway.locations=filesystem:src/main/resources/sql/migrations
+flyway.placeholders.email_type.primary=Primario
+flyway.placeholders.email_type.work=Trabajo
+flyway.placeholders.phone_type.home=Casa
